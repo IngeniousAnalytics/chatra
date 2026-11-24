@@ -1,0 +1,31 @@
+# Python & Virtual Environments
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local User Data & Secrets (never commit personal chats or DB credentials)
+data/*.db
+data/*.db-wal
+data/*.db-shm
+data/chats.json
+!data/.gitkeep
+.env
+.env.*
+*.pem
+*.key
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log

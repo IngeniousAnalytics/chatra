@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="none">
+  <defs>
+    <linearGradient id="iaGrad1" x1="24" y1="220" x2="232" y2="36" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="52%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+    <linearGradient id="iaGrad2" x1="40" y1="40" x2="216" y2="216" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+  </defs>
+  <rect x="12" y="12" width="232" height="232" rx="56" fill="#0f172a"/>
+  <rect x="16" y="16" width="224" height="224" rx="52" stroke="url(#iaGrad2)" stroke-opacity="0.35" stroke-width="4"/>
+  <!-- Ascending analytics bars -->
+  <rect x="56" y="140" width="28" height="56" rx="10" fill="#0ea5e9"/>
+  <rect x="102" y="106" width="28" height="90" rx="10" fill="#6366f1"/>
+  <rect x="148" y="68" width="28" height="128" rx="10" fill="#10b981"/>
+  <!-- Insight trend trajectory + node -->
+  <path d="M68 112L116 78L164 48" stroke="url(#iaGrad1)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="194" cy="52" r="14" fill="#38bdf8"/>
+</svg>

@@ -1,0 +1,17 @@
+{
+  "name": "Chatra — AI Chat & Database Analytics Studio",
+  "short_name": "Chatra",
+  "description": "Local-first AI Chat UI, RDBMS Database Analytics Studio, and Voice Agent for Ollama and llama.cpp. Powered by IngeniousAnalytics.com.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#4f46e5",
+  "icons": [
+    {
+      "src": "/chatra-logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
